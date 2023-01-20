@@ -1,3 +1,37 @@
-div{
-    background-color: yellow;
+div {
+  background-color: yellow;
+}
+
+#flowers {
+  height: 2em;
+  width: 15em;
+  margin: 0.5em 0;
+  padding: 0 0.7rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  border: 3px solid #afddd5;
+  outline: none;
+  border-radius: 1em;
+  background-color: #fff;
+  cursor: pointer;
+  color: #ffa700;
+  -webkit-box-shadow: 3px 3px 5px 0px #455c58;
+  -moz-box-shadow: 3px 3px 5px 0px #455c58;
+  box-shadow: 3px 3px 5px 0px #455c58;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  margin: 0 auto;
+  width: 100vw;
+  background-color: #64864A;
+  text-align: center;
+}
+
+#timeToSpring {
+  font-size: 45px;
+  font-family: "Caveat", cursive;
+  
 }
