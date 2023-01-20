@@ -23,7 +23,60 @@ body {
 .header1:hover {
     color: #203b2c;
 }
-.form1 {
-    background-color: #c4cfcf;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.form1{
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(formbackground.jpg);
+    background-color: #668882;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    
+}
+
+.description{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffa700;
+}
+
+input {
+  height: 2em;
+  width: 15em;
+  margin: 0.5em 0;
+  padding: 0 0.7rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  border: 3px solid #afddd5;
+  outline: none;
+  border-radius: 1em;
+  background-color: #fff;
+  cursor: pointer;
+  color: #ffa700;
+  -webkit-box-shadow: 3px 3px 5px 0px #455c58;
+  -moz-box-shadow: 3px 3px 5px 0px #455c58;
+  box-shadow: 3px 3px 5px 0px #455c58;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 1rem;
+    color: #f56093;
+    font-weight: 300;
+}
+
+.title4 {
+  width: 5em;
+  padding-left: 1.7rem;
+  text-align: center;
+}
