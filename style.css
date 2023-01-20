@@ -21,6 +21,77 @@ div {
   box-shadow: 3px 3px 5px 0px #455c58;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #dfe6e6;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header1 {
+    background-color: #AFDDD5;
+    font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	color:#608f75;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+.header1:hover {
+    color: #203b2c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form1{
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(formbackground.jpg);
+    background-color: #668882;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    
+}
+
+.description{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffa700;
+}
+
+input {
+  height: 2em;
+  width: 15em;
+  margin: 0.5em 0;
+  padding: 0 0.7rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  border: 3px solid #afddd5;
+  outline: none;
+  border-radius: 1em;
+  background-color: #fff;
+  cursor: pointer;
+  color: #ffa700;
+  -webkit-box-shadow: 3px 3px 5px 0px #455c58;
+  -moz-box-shadow: 3px 3px 5px 0px #455c58;
+  box-shadow: 3px 3px 5px 0px #455c58;
+}
+
+
 footer {
   position: absolute;
   bottom: 0px;
@@ -34,4 +105,16 @@ footer {
   font-size: 45px;
   font-family: "Caveat", cursive;
   
+
+input::placeholder{
+    color: black;
+    font-size: 1rem;
+    color: #f56093;
+    font-weight: 300;
+}
+
+.title4 {
+  width: 5em;
+  padding-left: 1.7rem;
+  text-align: center;
 }
