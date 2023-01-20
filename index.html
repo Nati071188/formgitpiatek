@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cwiczenia z gitem - praca z formularzem<</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+        <div class="header1">
+          <p>Cwiczenia z gitem - praca z formularzem</p>
+        </div>
+    
+        <div class="form1">
+          <form>
+            <label class="description" id="title1" for="field1">
+              Podaj nazwę uzytkownika:
+            </label>
+            <input type="text" id="field1" name="field1" placeholder="Wpisz imię" />
+            <br />
+            <label class="description" id="title2" for="field2">
+              Podaj swoje hasło:
+            </label>
+            <input
+              type="password"
+              id="field2"
+              name="field2"
+              title="Minimum 8 znakow, jedna cyfra i jeden znak specjalny"
+              placeholder="Wpisz hasło"
+            />
+            <br />
+            <label class="description" id="title3" for="field3">
+              Podaj swój email:
+            </label>
+            <input type="email" id="field3" name="field3" required />
+    
+            <br />
+            <label class="description" id="title4" for="field4">
+              Ile masz lat doświadczenia?
+            </label>
+            <input
+              type="number"
+              id="field4"
+              name="field4"
+              value="3"
+              min="1"
+              max="5"
+            />
+    
+</body>
+</html>
