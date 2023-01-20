@@ -1,7 +1,42 @@
-div {
-  background-color: yellow;
+body {
+    width: 100%;
+    /* display: inline-block; */
+    align-items: center;
+    text-align: center;
+    background-color: #dfe6e6;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
+.form1 {
+    border: 3px solid lightblue;
+}
+
+
+/* TABLET */ 
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .header1 {
+    text-transform: uppercase;
+    background-color: #7ABAA1;
+    font-size: 20px;
+    }
+  
+    .form1 {
+    font-size: 20px;
+
+    } 
+} 
+   
+
+  /* LAPTOP  */
+  @media screen and (min-width: 992px) and (max-width:1199px){ 
+    .header1 {
+    text-transform: uppercase;
+    background-color: #CFEAE4;
+    font-size: 20px;
+  }
+  }
+  
 #flowers {
   height: 2em;
   width: 15em;
@@ -22,13 +57,6 @@ div {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300&display=swap');
-
-body {
-    background-color: #dfe6e6;
-    font-family: 'Fjalla One', sans-serif;
-    font-family: 'Roboto', sans-serif;
-}
-
 
 .header1 {
     background-color: #AFDDD5;
