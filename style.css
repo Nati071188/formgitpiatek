@@ -1,3 +1,48 @@
-div{
-    background-color: yellow;
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    width: 100%;
+    /* display: inline-block; */
+    align-items: center;
+    text-align: center;
 }
+
+.form1 {
+    border: 3px solid lightblue;
+}
+
+
+/* TABLET */ 
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .header1 {
+    text-transform: uppercase;
+    background-color: #7ABAA1;
+    font-size: 20px;
+    }
+  
+    .form1 {
+    font-size: 20px;
+
+    } 
+} 
+   
+
+  /* LAPTOP  */
+  @media screen and (min-width: 992px) and (max-width:1199px){ 
+    .header1 {
+    text-transform: uppercase;
+    background-color: #CFEAE4;
+    font-size: 20px;
+  }
+
+    .form1 {
+    font-size: 15px;
+}
+  }
+  
+
+
